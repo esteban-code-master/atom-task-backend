@@ -6,15 +6,15 @@ Estructura del Proyecto
 El proyecto está organizado en dos módulos principales: task y user. Cada módulo sigue una arquitectura por capas que promueve la separación de responsabilidades:
 
 src/
-  ├── modules/
-  │   ├── task/
-  │   │   ├── application/    # Casos de uso y lógica de aplicación
-  │   │   ├── domain/         # Modelos de dominio e interfaces
-  │   │   └── infrastructure/ # Repositorios, controladores y servicios externos
-  │   └── user/
-  │       ├── application/
-  │       ├── domain/
-  │       └── infrastructure/
+    modules/
+      task/
+        application/    # Casos de uso y lógica de aplicación
+        domain/         # Modelos de dominio e interfaces
+        Infrastructure/ # Repositorios, controladores y servicios externos
+      user/
+        application/
+        domain/
+        infrastructure/
   
 Características Principales
 Arquitectura Limpia: El proyecto sigue los principios de la arquitectura limpia, asegurando una clara separación entre la lógica de negocio, los modelos de dominio y las preocupaciones de infraestructura.
